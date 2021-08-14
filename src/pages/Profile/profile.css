@@ -1,0 +1,131 @@
+.container {
+  display: flex;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 0.8em;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.profile {
+  width: 400px;
+}
+.label-avatar {
+  width: 280px;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.label-avatar input {
+  display: none;
+}
+.label-avatar span {
+  z-index: 99;
+  position: absolute;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.label-avatar span:hover {
+  opacity: 1;
+  transform: scale(1.5); /* fazendo animação aumentando a img de tamanho*/
+}
+
+.form-profile img {
+  margin-bottom: 1em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.form-profile label {
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+}
+.form-profile .title {
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  letter-spacing: 0.1em;
+}
+
+.form-profile input,
+textarea,
+select {
+  /* width: 400px; */
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 0;
+  border-radius: 5px;
+  font-size: medium;
+}
+.form-profile input:disabled {
+  cursor: not-allowed;
+}
+.form-profile input {
+  border: 0.2px solid #f6a935;
+}
+.form-profile .btn-salvar {
+  width: 400px;
+  height: 35px;
+  margin-top: 1px;
+  background: #f6a935;
+  transition: all 0.4s;
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  font-size: 0.85em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.form-profile button:hover {
+  background: #2b1a01;
+  color: #fff;
+}
+
+.logout-btn {
+  width: 110px;
+  height: 30px;
+  padding: 6px 20px;
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.logout-btn:hover {
+  background: rgba(70, 4, 4, 0.986);
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .form-profile input,
+  textarea,
+  select {
+    width: 350px;
+  }
+  .form-profile .btn-salvar {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-profile input,
+  textarea,
+  select {
+    width: 310px;
+  }
+  .form-profile .btn-salvar {
+    width: 270px;
+  }
+}

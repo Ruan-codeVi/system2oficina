@@ -1,0 +1,107 @@
+.container-center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login {
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.733);
+  border-radius: 10px;
+}
+.logo-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo-area img {
+  width: 400px;
+  height: 300px;
+}
+form {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+form h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.login input {
+  margin-bottom: 8px;
+  height: 30px;
+  border: 0;
+  border-radius: 7px;
+  padding: 15px;
+  font-size: 15px;
+  background: transparent;
+  color: #000;
+  border: 1px solid #f6a935;
+  letter-spacing: 0.05em;
+}
+form button {
+  height: 30px;
+  background: #f6a935;
+  border: 1px solid #f6a935;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 7px;
+  color: #fff;
+  transition: all 0.4s;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+form button:hover {
+  color: #000;
+  background: transparent;
+}
+.login a {
+  margin-top: 10px;
+  color: rgb(5, 0, 0);
+  transition: all 0.4s;
+  margin-bottom: 15px;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #000;
+}
+.login a:hover {
+  color: #f6a935;
+}
+
+@media screen and (max-width: 600px) {
+  .login {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
+  }
+  .logo-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+  }
+  .logo-area img {
+    width: 300px;
+    height: 200px;
+  }
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+}

@@ -1,0 +1,35 @@
+.tipo {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 15px;
+}
+.form-profile .cliente {
+  width: 400px;
+}
+.form-profile .btn-cadastrar {
+  width: 400px;
+  height: 35px;
+  font-size: 1.1em;
+  letter-spacing: 0.08em;
+  padding: 5px;
+  background-color: orange;
+  color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .form-profile .cliente {
+    width: 350px;
+  }
+  .form-profile .btn-cadastrar {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form-profile .cliente {
+    width: 320px;
+  }
+  .form-profile .btn-cadastrar {
+    width: 300px;
+  }
+}

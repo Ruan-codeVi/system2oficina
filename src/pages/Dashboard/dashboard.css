@@ -1,0 +1,183 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dashboard span {
+  margin: 2em 0;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.novo {
+  float: right;
+  margin-bottom: 1.5em;
+  background-color: orange;
+  color: #fff;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.1em;
+  border-radius: 6px;
+  transition: ease-in 0.2s;
+}
+.novo svg {
+  margin-right: 5px;
+}
+.novo:hover {
+  background-color: rgb(172, 114, 7);
+  transform: scale(1.1);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+table caption {
+  font-size: 1.5em;
+  margin: 0.5em 0 0.75em;
+}
+table tr {
+  background-color: #f8f8f8;
+
+  padding: 0.35em;
+}
+table th,
+table td {
+  padding: 0.62em;
+  text-align: center;
+}
+
+table th {
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+table td .action {
+  border: 0;
+  padding: 5px;
+  margin-right: 2px;
+  align-items: center;
+  display: inline-block;
+  border-radius: 4px;
+}
+table td .action svg {
+  vertical-align: middle;
+}
+
+table td .badge {
+  padding: 4px;
+  border-radius: 3px;
+  color: #fff;
+}
+.btn-mais {
+  width: 130px;
+  padding: 9px 15px;
+  background-color: orange;
+  color: #fff;
+  border: 1px solid #f6a935;
+  border-radius: 7px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.4s;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.logout-deslogar {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  margin-top: 300px;
+  width: 90px;
+  padding: 6px 15px;
+  border-radius: 7px;
+  font-size: 1.2em;
+  display: flex;
+  transition: all 0.4s;
+  font-weight: 500;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: none;
+}
+.logout-deslogar:hover {
+  background: rgba(236, 7, 7, 0.568);
+  color: #fff;
+}
+.btn-mais:hover {
+  background: #f6a935;
+  color: #fff;
+}
+
+/* Responsividade */
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1.3em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.65em;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  .logout-deslogar {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    width: 90px;
+    padding: 6px 15px;
+    border-radius: 7px;
+    font-size: 1.2em;
+    display: flex;
+    transition: all 0.4s;
+    font-weight: 500;
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+  }
+  .logout-deslogar:hover {
+    background: rgba(236, 7, 7, 0.568);
+    color: #fff;
+  }
+}
