@@ -19,6 +19,10 @@ nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de s
 </div>
 
 ---
+### Technologies
+- React
+- Node
+- Firebase
 
 # Getting Started with Create React App
 
