@@ -1,6 +1,16 @@
+![GitHub language count](https://img.shields.io/github/languages/count/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/Ruan-codeVi/Clone-Netflix?color=black&style=for-the-badge)
 
+##  Description
+Sistema dashboard para uma oficina de automóveis.
 
-
+### presentation
+- State manegement no front-end feito com contextApi e React Hooks.
+- Criação e validação através da próprias ferramentas Firebase.
+ alterações ao Firebase e atualizando .
+- Rota clientes, cadastro de cliente CPF ou CNPJ, cadastro do veiculo. 
+- Rota chamado, cadastro de tipo de serviço a ser realizado no veiculo, status atual do chamado e opção de colocar ou não algum complemento nesse chamado.
+- Rota Principal Dashbord contém cliente, auto(marca ou modelo), placa, tipo de serviço, status atual e data da criação do chamado,
+nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de serviço e o status.
 
 # Getting Started with Create React App
 
