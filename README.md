@@ -12,7 +12,7 @@ Sistema dashboard para uma oficina de automóveis.
 - Rota Principal Dashbord contém cliente, auto(marca ou modelo), placa, tipo de serviço, status atual e data da criação do chamado,
 nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de serviço e o status.
 
-#Screens
+# Screens
 
 # Getting Started with Create React App
 
