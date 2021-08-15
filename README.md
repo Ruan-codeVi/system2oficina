@@ -3,7 +3,7 @@
 ##  Description
 Sistema dashboard para uma oficina de automóveis.
 
-### presentation
+### Presentation
 - State manegement no front-end feito com contextApi e React Hooks.
 - Criação e validação através da próprias ferramentas Firebase.
  alterações ao Firebase e atualizando .
@@ -15,7 +15,7 @@ nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de s
 ## Screens
 <div align="stretch" >
   <img src="./src/assets/profile.png "  height="300"> <img src="./src/assets/cliente.png"  height="300">
-  <img src="./src/assets/chamado.png"  height="300">
+  <img src="./src/assets/chamado.png"  height="300"> <img src="./src/assets/dashboard.png"  height="300">
 </div>
 
 ---
