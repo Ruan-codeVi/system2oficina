@@ -18,6 +18,8 @@ nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de s
   <img src="./src/assets/chamado.png"  height="300">
 </div>
 
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
