@@ -13,7 +13,7 @@ Sistema dashboard para uma oficina de automóveis.
 nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de serviço e o status.
 
 ## Screens
-
+![Screen](/src/assets/profile.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
