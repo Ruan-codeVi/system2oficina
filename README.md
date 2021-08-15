@@ -11,7 +11,7 @@ Sistema dashboard para uma oficina de automóveis.
 - Rota chamado, cadastro de tipo de serviço a ser realizado no veiculo, status atual do chamado e opção de colocar ou não algum complemento nesse chamado.
 - Rota Principal Dashbord contém cliente, auto(marca ou modelo), placa, tipo de serviço, status atual e data da criação do chamado,
 nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de serviço e o status.
-
+---
 ## Screens
 <div align="stretch" >
   <img src="./src/assets/profile.png "  height="300"> <img src="./src/assets/cliente.png"  height="300">
