@@ -13,7 +13,7 @@ Sistema dashboard para uma oficina de automóveis.
 nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de serviço e o status.
 ---
 ## Screens
-<div align="stretch" >
+<div align="row" >
   <img src="./src/assets/profile.png "  height="300"> <img src="./src/assets/cliente.png"  height="300">
   <img src="./src/assets/chamado.png"  height="300"> <img src="./src/assets/dashboard.png"  height="300">
 </div>
