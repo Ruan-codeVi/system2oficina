@@ -14,7 +14,7 @@ nessa rota é possível visualizar infos de cada cliente e atualizar o tipo de s
 ---
 ## Screens
 <div align="row" >
- <img src="./src/assets/login.gif "  height="500" width="500">
+ <img src="./src/assets/login.gif "  height="500" >
   <img src="./src/assets/profile.png "  height="500"> <img src="./src/assets/cliente.png"  height="500">
   <img src="./src/assets/chamado.png"  height="500"> <img src="./src/assets/dashboard.png"  height="500">
 </div>
